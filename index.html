@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="juke.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>myJukebox</title>
+</head>
+
+<body>
+
+  <div class="heading">
+  <h1>MuseBox</h1>
+  </div>
+  <div class="images">
+  <img class="image1" src="images/jheneaiko.jpg" width="400" />
+  <img class="image2" src="images/Missy.jpg" width="400" />
+  <img class="image3" src="images/aaliyah2.jpg" width="400" />
+ </div>
+
+  <div class="controls">
+    <button style="font-size: 24px" class="fa fa-hand-o-left" alt="Pre Button" onclick="player.pre()">Prev</button>
+    <button style="font-size: 24px" class="fa fa-thumbs-o-up" alt="Play Button" onclick="player.play()">Play</button>
+    <button style="font-size: 24px" class="fa fa-hand-spock-o" alt="Pause Button" onclick="player.pause()">Pause</button>
+    <button style="font-size: 24px" class="fa fa-hand-stop-o" alt="Stop Button" onclick="player.stop()">Stop</button>
+    <button style="font-size: 24px" class="fa fa-hand-o-right" alt="Next Button" onclick="player.next()">Next</button>
+  </div>
+  <div class="Titles">
+    <input class="first" type="button" value="Jhene Aiko-Never Call Me" onclick="player.playsong(0)">
+    <input class="second" type="button" value="Missy- I'm Better" onclick="player.playsong(1)">
+    <input class="third" type="button" value="Aaliyah- Come Over" onclick="player.playsong(2)">
+
+  </div>
+  
+  <audio id="myJukebox" src="music/Never_Call_Me.mp3">
+</audio>
+  <script type="text/javascript" src="juke.js">
+  </script>
+  <span class='loading loading-spinner-tiny inline-block'></span>
+  <span class='loading loading-spinner-small inline-block'></span>
+  <span class='loading loading-spinner-medium inline-block'></span>
+  <span class='loading loading-spinner-large inline-block'></span>
+</body>
+<footer> 
+  <div class="foot">
+  Scholfield 2018
+</div>
+ </footer>
+
+</html>

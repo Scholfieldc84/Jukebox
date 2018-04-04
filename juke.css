@@ -1,0 +1,89 @@
+body {background-image: url(images/cat.gif);
+            background-size: cover;
+  
+  }
+.heading{
+    font-size: 30px;
+    text-shadow: 3px 3px 4px gold;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+        }
+
+.images{
+  opacity: 0.5;
+  position: absolute;
+  top: 17%;
+  left: 5%;
+}
+.controls{
+   position: absolute;
+   top: 85%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+        }
+.fa-hand-o-left{
+    color: gold;
+    background-color: black;
+}
+.fa-hand-o-right{
+    color: gold;
+    background-color: black;
+}
+.fa-hand-stop-o{
+    color: gold;
+    background-color: black;
+}
+.fa-thumbs-o-up{
+    color: gold;
+    background-color: black;
+}
+.fa-hand-spock-o{
+    color: gold;
+    background-color: black;
+}  
+
+.Titles {
+  
+}
+
+.first {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  color: goldenrod;
+  background-color: black;
+  font-size: 15px;
+}
+
+.second {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: goldenrod;
+  background-color: black;
+  font-size: 15px;
+}
+
+.third {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  color: goldenrod;
+  background-color: black;
+  font-size: 15px;
+  ;
+}
+
+.foot{
+  color: black;
+  text-transform: 16px;
+  font-family: cursive;
+  position: absolute;
+  top: 95%;
+  left: 45%;
+}
